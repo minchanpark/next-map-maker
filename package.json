@@ -1,0 +1,21 @@
+{
+  "name": "next-map-maker",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -ws",
+    "test": "npm run test -ws",
+    "typecheck": "npm run typecheck -ws",
+    "build:packages": "npm run build -ws",
+    "test:packages": "npm run test -ws"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8",
+    "@types/vscode": "^1.95.0"
+  }
+}

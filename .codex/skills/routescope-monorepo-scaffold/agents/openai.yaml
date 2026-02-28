@@ -1,0 +1,4 @@
+interface:
+  display_name: "RouteScope Scaffold"
+  short_description: "Scaffold npm workspace monorepo structure"
+  default_prompt: "Use $routescope-monorepo-scaffold to scaffold the RouteScope workspace layout and baseline npm configs."

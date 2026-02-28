@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyzer Render Insights"
+  short_description: "Build best-effort render graph and insights"
+  default_prompt: "Use $routescope-analyzer-render-insights to add render-edge heuristics and insight/warning generation."

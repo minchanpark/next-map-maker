@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shared Schema Contracts"
+  short_description: "Define and evolve typed cross-package contracts"
+  default_prompt: "Use $routescope-shared-schema-contracts to create or update shared analyzer/extension/webview schemas."

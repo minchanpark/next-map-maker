@@ -1,0 +1,4 @@
+interface:
+  display_name: "Incremental Cache Engine"
+  short_description: "Add cache keys and incremental rebuild planning"
+  default_prompt: "Use $routescope-incremental-cache to implement file-hash caching and dependency-based incremental reanalysis."

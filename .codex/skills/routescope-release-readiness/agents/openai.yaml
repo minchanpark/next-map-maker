@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release Readiness Gate"
+  short_description: "Run release checks for quality and safety budgets"
+  default_prompt: "Use $routescope-release-readiness to run pre-release quality, performance, privacy, and packaging checks."

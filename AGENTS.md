@@ -327,7 +327,7 @@ If a higher-priority source invalidates a lower one:
 
 ## 18. Task Playbooks (Day-to-Day Reference)
 
-### A) Adding/Changing Route Rules
+### A. Adding/Changing Route Rules
 
 Touch points:
 
@@ -343,7 +343,7 @@ Must verify:
 2. Layout chain ordering remains root -> nearest.
 3. Confidence remains `exact`.
 
-### B) Import/Resolve Logic Changes
+### B. Import/Resolve Logic Changes
 
 Touch points:
 
@@ -357,7 +357,7 @@ Must verify:
 2. Unresolved imports remain explicit and diagnosable.
 3. No VSCode-specific logic enters analyzer core.
 
-### C) Render Graph Changes
+### C. Render Graph Changes
 
 Touch points:
 
@@ -370,7 +370,7 @@ Must verify:
 1. All render edges stay `best-effort`.
 2. Heuristic misses produce warnings, not crashes.
 
-### D) Extension UX Changes
+### D. Extension UX Changes
 
 Touch points:
 
@@ -384,7 +384,7 @@ Must verify:
 2. Tree selection syncs with webview selection.
 3. Open source jump works with missing line fallback.
 
-### E) Webview/Graph Changes
+### E. Webview/Graph Changes
 
 Touch points:
 

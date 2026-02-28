@@ -1,0 +1,4 @@
+interface:
+  display_name: "Webview Graph UI"
+  short_description: "Build graph canvas filters inspector sync"
+  default_prompt: "Use $routescope-webview-graph-ui to implement React Flow graph rendering, filters, and inspector/source sync."

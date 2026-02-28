@@ -1,0 +1,31 @@
+{
+  "name": "@routescope/extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/extension.js",
+  "types": "src/extension.ts",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "activationEvents": [
+    "onCommand:routescope.analyzeWorkspace"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "routescope.analyzeWorkspace",
+        "title": "RouteScope: Analyze Workspace"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@routescope/analyzer-core": "0.1.0",
+    "@routescope/shared-schema": "0.1.0"
+  }
+}

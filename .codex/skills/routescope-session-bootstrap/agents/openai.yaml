@@ -1,0 +1,6 @@
+interface:
+  display_name: "Session PRD/TDD Guard"
+  short_description: "Always load PRD/TDD at session start"
+  default_prompt: "Use $routescope-session-bootstrap to start this session by reading dev/PRD_RouteScope_v2.0.md and dev/TDD_RouteScope_v2.0.md, then apply their constraints."
+policy:
+  allow_implicit_invocation: true

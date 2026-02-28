@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyzer Route Tree"
+  short_description: "Build deterministic Next.js route tree analyzer"
+  default_prompt: "Use $routescope-analyzer-route-tree to implement deterministic App/Pages route mapping and layout chains."

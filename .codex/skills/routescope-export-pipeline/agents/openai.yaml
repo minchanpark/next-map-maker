@@ -1,0 +1,4 @@
+interface:
+  display_name: "Export Pipeline"
+  short_description: "Implement JSON Mermaid SVG PNG export flow"
+  default_prompt: "Use $routescope-export-pipeline to implement analyzer and UI export flows for JSON, Mermaid, and SVG/PNG."

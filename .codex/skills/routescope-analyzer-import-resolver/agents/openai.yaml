@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyzer Import Resolver"
+  short_description: "Implement import extraction and path resolution"
+  default_prompt: "Use $routescope-analyzer-import-resolver to implement exact import extraction and tsconfig-aware resolution."

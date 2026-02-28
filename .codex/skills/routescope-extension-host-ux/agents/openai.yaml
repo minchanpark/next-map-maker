@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extension Host UX"
+  short_description: "Implement commands, tree views, diagnostics"
+  default_prompt: "Use $routescope-extension-host-ux to build VSCode commands, tree providers, status, and diagnostics flows."

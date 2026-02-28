@@ -1,0 +1,5 @@
+#:schema https://developers.openai.com/codex/config-schema.json
+
+# Project-scoped Codex hook configuration.
+# OpenAI docs: `notify` runs an external command and passes one JSON argument.
+notify = ["python3", ".codex/hooks/notify.py"]
