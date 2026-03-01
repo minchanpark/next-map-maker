@@ -1,5 +1,8 @@
 {
-  "name": "@routescope/extension",
+  "name": "routescope-extension",
+  "displayName": "RouteScope",
+  "description": "Static Next.js route and flow visualizer for VSCode.",
+  "publisher": "routescope",
   "version": "0.1.0",
   "private": true,
   "type": "module",

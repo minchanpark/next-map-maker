@@ -8,7 +8,8 @@
       "runtimeExecutable": "${execPath}",
       "args": [
         "--extensionDevelopmentPath=${workspaceFolder}/packages/extension",
-        "--disable-extensions"
+        "--disable-extensions",
+        "${workspaceFolder}"
       ],
       "preLaunchTask": "routescope: build workspaces",
       "outFiles": [
